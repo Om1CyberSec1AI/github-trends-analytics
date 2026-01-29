@@ -1,0 +1,1 @@
+python -m src.main all --query "machine learning" --max-repos 200 --max-issues 40 --max-commits 40 --max-stargazers 200
