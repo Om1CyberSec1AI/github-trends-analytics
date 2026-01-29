@@ -1,0 +1,11 @@
+python -m src.main init-db
+python -m src.main init-db
+python -m src.main fetch --query "web development" --max-repos 150 --max-issues 30 --max-commits 30 --max-stargazers 150
+python -m src.main analyze
+python -m src.main export
+git init
+git add .
+git commit -m "Initial commit: GitHub OSS trends pipeline"
+git branch -M main
+git remote add origin https://github.com/your-username/github-open-source-trends.git
+git push -u origin main
