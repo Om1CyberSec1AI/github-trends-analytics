@@ -1,0 +1,39 @@
+github-open-source-trends/
+├── README.md
+├── LICENSE
+├── requirements.txt
+├── .gitignore
+├── .env.example
+├── sql/
+│   ├── create_tables.sql
+│   └── analysis_queries.sql
+├── src/
+│   ├── __init__.py
+│   ├── config.py
+│   ├── utils.py
+│   ├── logging_setup.py
+│   ├── github_api.py
+│   ├── db.py
+│   ├── models.py
+│   ├── fetch_data.py
+│   ├── analyze_data.py
+│   ├── export_data.py
+│   └── main.py
+├── data/
+│   ├── .gitkeep
+│   └── sample_exports/
+│       ├── repositories_sample.csv
+│       ├── language_summary_sample.csv
+│       └── issue_resolution_sample.csv
+├── docs/
+│   ├── architecture.md
+│   ├── schema.md
+│   ├── powerbi_guide.md
+│   └── insights_report.md
+├── visualizations/
+│   ├── README.md
+│   └── dashboard_screenshots/
+│       └── .gitkeep
+└── tests/
+    ├── test_utils.py
+    └── test_db_schema.py
