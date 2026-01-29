@@ -1,0 +1,5 @@
+# macOS/Linux
+export GITHUB_TOKEN="YOUR_TOKEN"
+
+# Windows PowerShell
+setx GITHUB_TOKEN "YOUR_TOKEN"
